@@ -1,0 +1,248 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Patua One', cursive;
+  color: var(--font-colour);
+}
+body{
+
+  background-color: rgba(36, 35, 35, 0.943);
+  margin-top: 0;
+}
+
+/* 
+  h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Inter;
+  }
+  .iphone{
+    display: block;
+    margin: 0 auto;
+  padding-top:10px;
+    width: 100%;
+  } */
+  
+  .display {
+    background-color: transparent;
+    padding-top: 170px;
+    padding-bottom: 34px;
+  }
+  
+  .btn {
+    width: 74px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 18px;
+    margin: 5px;
+    background-image: url(Group\ 49.svg);
+    background-position: calc(100% - (-15px)) calc(100% - (-14px));
+    background-repeat: no-repeat;
+    border: none;
+  }
+  .btn_point{
+    width: 74px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 18px;
+    margin: 5px;
+    background-image: url(Group\ 49.svg);
+    background-position: calc(100% - (-15px)) calc(100% - (-14px));
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 593px;
+    left: 195px;
+  }
+  .btn_0{
+    background-image: url(Group\ 52.svg);
+    background-position: calc(100% - (-13px)) calc(100% - (-11px));
+    background-repeat: no-repeat;
+    border: none;
+
+    width: 163.4px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 21px;
+    margin: 7px;
+    /* background: linear-gradient(134deg, #CED2DE 15.47%, #ECEFF4 94.71%);
+    border-radius: 23px;
+box-shadow: 4px 4px 4px 0px #DDE1EC inset, 3px 3px 10px 0px rgba(57, 62, 81, 0.24); */
+  }
+
+  input[type="text"] {
+    background-color: transparent;
+    border: none;
+ outline: none;
+    width: 326px;
+    height: 40px;
+    font-size: 30px;
+    text-align: right;
+  }
+
+  .btn_operator{
+    width: 74px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 18px;
+    margin: 5px;
+    color: #E9ECF2;
+    background-image: url(Group\ 38.svg);
+    background-position: calc(100% - (-11px)) calc(100% - (-14px));
+    background-repeat: no-repeat;
+    border: none;
+    
+  }
+  .btn_operator-equal{
+    width: 74px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 18px;
+    margin: 5px;
+    position: absolute;
+    top: 593px;
+    left: 282px;
+    color: #ffffff;
+    background-image: url(Group\ 38.svg);
+    background-position: calc(100% - (-11px)) calc(100% - (-14px));
+    background-repeat: no-repeat;
+    border: none;
+    
+  }
+  .btn_ex{
+    width: 74px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 18px;
+    margin: 5px;
+    background-image: url(Group\ 41.svg);
+    background-position: calc(100% - (-11px)) calc(100% - (-14px));
+    background-repeat: no-repeat;
+    border: none;
+  
+  }
+  /* Light */
+
+
+  .container {
+    /* background-color: #ffffff; /* default background color */
+    /* color: #000000; /* default text color */
+    /* text-align: center;
+    padding: 20px; */ 
+
+    background-color:#DEE1EA;;
+    
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 43px;
+    margin-top: 20px;
+    margin-left: 600px;
+    border-radius: 20px;
+    width: 396px;
+    height: 700px;
+    position: relative;
+  }
+  
+  /* Day mode styles */
+  .lightPart {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  
+  /* Night mode styles */
+   .darkPart {
+    background-color: #000000;
+    color: rgb(77, 7, 19);
+    
+  } 
+
+  .moon{
+    color: black;
+    font-size: 19px;
+  width: 45px;
+  
+  position: relative;
+  top: 20px;
+  
+  }
+.moon_2{
+  width: 45px;
+  background-color: rgb(243, 192, 8);
+
+}
+
+.sun{
+  background-color: rgb(243, 192, 8);
+  width: 45px;
+  
+  position: relative;
+  top: 20px;
+
+}
+
+.bi{
+  background-color: rgb(243, 192, 8);
+width: 45px;
+}
+/* 
+  .dayNightPart {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+  
+  .sun {
+    font-size: 30px;
+    color: rgb(155, 155, 221);
+  }
+  .moon {
+    color: yellow;
+    font-size: 30px;
+  }
+  .dayNightPart .sun {
+    display: none;
+  }
+  
+  .lightPart button {
+    box-shadow: -8px -8px 15px rgba(220, 216, 216, 0.1),
+      5px 5px 15px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(#dadee9, #eceff4);
+    color: black;
+  }
+  
+  .lightPart .num-bg {
+    background: linear-gradient(#fefefe, #d8d9db);
+  }
+  
+  .lightPart .del-bg {
+    background: linear-gradient(134deg, #bdc6d4 15.47%, #c5cedf 94.71%);
+  }
+  
+  .lightPart .delete {
+    background: linear-gradient(134deg, #c8d1e0 15.47%, #bec8db 94.71%);
+  }
+  
+  .lightPart .zero,
+  .lightPart .point {
+    background: linear-gradient(#dadee9, #eceff4);
+  }
+  
+  .lightPart .zero-bg,
+  .lightPart .point {
+    background: linear-gradient(#fefefe, #d8d9db);
+  }
+  
+  .lightPart .orange {
+    background: linear-gradient(140deg, #dd771a 49%, #dd7414);
+  }
+  
+  .lightPart .orange-bg {
+    background: linear-gradient(140deg, #d9781f 49%, #ef933e);
+  }
+  
+  .lightPart .output {
+    color: black;
+  } */
